@@ -11,7 +11,7 @@ class CheckBalanceScreen extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          "Can You Hear Me Dart?",
+          "Can You Hear Me Check Balance Page?",
           style: TextStyle(fontSize: 18),
         ),
       ),

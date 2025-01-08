@@ -11,7 +11,7 @@ class WithdrawScreen extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          "This is the Withdraw Screen",
+          "Can You Hear me Withdraw Screen",
           style: TextStyle(fontSize: 18),
         ),
       ),
