@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
       {
         "icon": Icons.account_balance, // Icon for "Check Balance"
         "text": "Check Balance",
-        "screen": const CheckBalanceScreen(),
+        "screen": CheckBalanceScreen(),
       },
       {
         "icon": Icons.money_off, // Icon for "Withdraw"
