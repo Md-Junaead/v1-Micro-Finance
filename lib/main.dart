@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:v1_micro_finance/screens/dashboard/check_balance_screen.dart';
-import 'package:v1_micro_finance/screens/home_screen.dart';
-import 'package:v1_micro_finance/screens/signin_screen.dart';
-import 'package:v1_micro_finance/test/test.dart';
-import 'package:v1_micro_finance/widgets/bottom_nav_bar.dart'; // Import BottomNavBar widget
+import 'package:v1_micro_finance/screens/withdraw/bank_withdrawal_screen.dart';
+import 'package:v1_micro_finance/screens/withdraw/crypto_withdrawal_screen.dart';
 
 void main() {
   runApp(MicroFinance());
@@ -16,7 +13,7 @@ class MicroFinance extends StatelessWidget {
       title: 'Finance App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: BottomNavBarScreen(), // Use BottomNavBar as the home screen
+      home: BankWithdrawalScreen(), // Use BottomNavBar as the home screen
     );
   }
 }
