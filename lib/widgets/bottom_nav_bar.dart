@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:v1_micro_finance/screens/dashboard/check_balance_screen.dart';
 import 'package:v1_micro_finance/screens/edit_profile_screen.dart';
 import 'package:v1_micro_finance/screens/home_screen.dart';
 import 'package:v1_micro_finance/screens/about_us_screen.dart';
 import 'package:v1_micro_finance/screens/statement_screen.dart';
 
-class BottomNavBar extends StatefulWidget {
+class BottomNavBarScreen extends StatefulWidget {
   @override
-  _BottomNavBarState createState() => _BottomNavBarState();
+  _BottomNavBarScreenState createState() => _BottomNavBarScreenState();
 }
 
-class _BottomNavBarState extends State<BottomNavBar> {
+class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
   // Variable to hold the index of the selected screen
   int _selectedIndex = 0;
 

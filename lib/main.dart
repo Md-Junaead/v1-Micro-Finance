@@ -16,7 +16,7 @@ class MicroFinance extends StatelessWidget {
       title: 'Finance App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: SignInScreen(), // Use BottomNavBar as the home screen
+      home: BottomNavBarScreen(), // Use BottomNavBar as the home screen
     );
   }
 }
